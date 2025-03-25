@@ -1,6 +1,6 @@
 <?php
     //cria um array associativo
-    $idades = array("Fani"=> 16, "Pri"=> 16, "Nathi"=> 16);
+    $idades = array("Acacio"=> 47, "Maria"=> 44, "Vitor"=> 26);
 
     //converte para uma string Json
     $json_str = json_encode($idades);

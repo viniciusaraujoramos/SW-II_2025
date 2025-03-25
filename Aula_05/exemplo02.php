@@ -1,9 +1,9 @@
 <?php
     //string json aaray contendo 3 elementos
     $json_str = '{"empregados": '.
-    '[{"nome": "Rapha", "idade": 17, "genero": "F"},'.
-    '{"nome": "Jack", "idade": 18, "genero": "M"},'.
-    '{"nome": "Ana", "idade": 17, "genero": "F"}'.
+    '[{"nome": "Vinicius", "idade": 18, "genero": "M"},'.
+    '{"nome": "Jake", "idade": 9, "genero": "M"},'.
+    '{"nome": "Pedro", "idade": 17, "genero": "M"}'.
     ']}';
 
     //faz o parsing da string, criando o array empregados

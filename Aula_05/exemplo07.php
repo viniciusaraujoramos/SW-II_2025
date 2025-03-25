@@ -2,19 +2,19 @@
     //cria um array com 3 empregados, um array recebe outro array, q recebe outro
     $empregados = array('empregados' => array(
         array(
-            'nome' => 'Fani',
-            'idade' => 16,
+            'nome' => 'Acacio',
+            'idade' => 47,
+            'genero' => 'M'
+        ),
+        array(
+            'nome' => 'Maria',
+            'idade' => 44,
             'genero' => 'F'
         ),
         array(
-            'nome' => 'Pri',
-            'idade' => 16,
-            'genero' => 'F'
-        ),
-        array(
-            'nome' => 'Nthi',
-            'idade' => 16,
-            'genero' => 'F'
+            'nome' => 'Vitor',
+            'idade' => 25,
+            'genero' => 'M'
         )));
 
     //converte para uma string Json

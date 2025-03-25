@@ -1,6 +1,6 @@
 <?php
     //string json contendo os dados de um funcionario
-    $json_str = '{"nome": "Rapha", "idade": 17, "genero": "F"}';
+    $json_str = '{"nome": "Vinicius", "idade": 17, "genero": "M"}';
 
     //gera um objeto php
     $obj = json_decode($json_str);

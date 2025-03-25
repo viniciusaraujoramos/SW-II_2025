@@ -1,11 +1,11 @@
 <?php
     //agr um tem dependente e o resto n, tbm foi criado o campo data
     $json_str = '{"empregados": '.
-    '[{"nome": "Rapha", "idade": 17, "genero": "F", "dependentes": ["Fulaninho","Fulaninho 2"]},'.
-    '{"nome": "Jack", "idade": 18, "genero": "M"},'.
-    '{"nome": "Ana", "idade": 17, "genero": "F"}'.
+    '[{"nome": "Vinicius", "idade": 18, "genero": "M", "dependentes": ["Fulaninho","Ciclano"]},'.
+    '{"nome": "Jake", "idade": 9, "genero": "M"},'.
+    '{"nome": "Pedro", "idade": 17, "genero": "M"}'.
     '],
-    "data": "15/12/2012"}';
+    "data": "27/07/2007"}';
 
     //faz o parsing da string, criando o array empregados
     $jsonObj = json_decode($json_str);
